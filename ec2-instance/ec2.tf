@@ -8,12 +8,9 @@ resource "aws_instance" "main" {
     subnet_id = var.subnets[count.index]
     count = var.num_of_vm
     associate_public_ip_address = false
-    user_data=var.user_data
-    
+      
   tags = {
     "Name" = local.tag_Name
   }
-
-
 }
 
