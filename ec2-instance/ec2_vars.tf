@@ -1,5 +1,5 @@
 variable "region-1" {
-default = "ap-west-1"
+default = "us-west-1"
 }
 variable "env" {}
 variable "num_of_vm" {
