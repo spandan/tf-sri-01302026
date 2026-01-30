@@ -13,3 +13,4 @@ resource "aws_instance" "main" {
     "Name" = local.tag_Name
   }
 }
+
