@@ -1,5 +1,5 @@
 locals {
-  tag_Name = "Viswa-${var.env}"
+  tag_Name = "user14-${var.env}"
 }
 
 resource "aws_instance" "main" {

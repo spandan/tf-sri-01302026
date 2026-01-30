@@ -33,5 +33,5 @@ variable "web_sg" {
   type = list
   }
   variable "user_data" {
-    
+    type = list
   }
