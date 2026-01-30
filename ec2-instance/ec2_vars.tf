@@ -1,6 +1,6 @@
-variable "region-1" {
-default = "us-west-1"
-}
+#variable "region-1" {
+$default = "us-west-1"
+#}
 variable "env" {}
 variable "num_of_vm" {
  type = number  
