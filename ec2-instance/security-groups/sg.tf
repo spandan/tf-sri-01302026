@@ -6,4 +6,5 @@ resource  "aws_security_group" "web_sg"
     tags={
         name= "lab9-web-sg-${var.project}"
     }
+     vpc_security_group_ids = var.web_sg
 }
